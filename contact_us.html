@@ -22,7 +22,7 @@
   <body>
     <nav>
       <nav class="navbar navbar-light bg-light justify-content-between">
-        <a class="navbar-brand"  href="index.html">M</a>
+        <a class="navbar-brand"  href="index.html">MF</a>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="about.html"
@@ -46,13 +46,13 @@
         <form>
             <div class="input-con">
                 <label for="email">Email</label>
-                <input id="email" type="email" required="true"/>
+                <input class="email" id="email" type="email" required="true"/>
             </div>
             <div class="input-con">
                 <label>Message</label>
                 <textarea class="textarea"></textarea>
             </div>
-            <button>Send</button>
+            <button class="submit-btn">Send</button>
         </form>
     </section>
     <footer class="footer">
@@ -71,11 +71,17 @@
     <script>
         const copyrightText = document.querySelector('.copyright');
         const scrollTopBtn = document.querySelector('.ri-arrow-up-circle-fill');
+        const submitBtn = document.querySelector('.submit-btn')
+        const emailInput = document.querySelector('.email')
+        const textInput = document.querySelector('.textarea')
+
         copyrightText.innerHTML = `Copyright ${new Date().getFullYear()}`
-        copyrightText.window
+
         scrollTopBtn.addEventListener('click', (()=>{
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }))
+
+       
     </script>
   </body>
 </html>

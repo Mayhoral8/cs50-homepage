@@ -48,11 +48,16 @@
   margin-top: 20px;
 }
 
+span {
+font-weight: bold;
+}
+
 p {
-  font-size: 25px;
-  padding: 0 50px;
+  font-size: 20px;
+  padding: 40px 120px;
   text-align: center;
   margin-top: 20px;
+  margin: 20px 0;
 }
 .navbar {
   display: flex;
