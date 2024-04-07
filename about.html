@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="about.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand" href="index.html">M</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="privacy_policy.html">Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </nav>
+    <main>
+      <div class="main">
+        <h1 class="text">About Us</h1>
+      </div>
+      <p>
+        Welcome to Maverick Footies, where passion meets craftsmanship. Our
+        journey began with a simple idea: to create footwear that not only looks
+        great but feels amazing to wear. Each pair of shoes is meticulously
+        crafted using the finest materials and the latest technologies, ensuring
+        both style and comfort. At Maverick Footies, we believe that shoes are
+        more than just an accessory – they're a statement. Whether you're
+        stepping into the boardroom or hitting the streets, our shoes are
+        designed to make you look and feel your best. Join us on this journey as
+        we continue to push the boundaries of footwear design and innovation.
+        Step into style with Maverick Footies.
+      </p>
+    </main>
+    <footer class="footer">
+      <div class="footer-links">
+        <ul class="footer-links">
+          <li>About</li>
+          <li>Privacy Policy</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div>
+        <span class="copyright"> </span>
+      </div>
+    </footer>
+    <script>
+      const copyrightText = document.querySelector(".copyright");
+      copyrightText.innerHTML = `Copyright ${new Date().getFullYear()}`;
+    </script>
+  </body>
+</html>
