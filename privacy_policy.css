@@ -83,6 +83,18 @@ h1{
     font-size: 25px;
     margin-top: 20px;
 }
+.ri-arrow-up-circle-fill {
+    position: absolute;
+    right: 0;
+    margin-bottom: 180px;
+    font-size: 50px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .ri-arrow-up-circle-fill:hover {
+    font-size: 55px;
+  }
+  
 @media (max-width: 768px) {
     p{
         font-size: 20px;

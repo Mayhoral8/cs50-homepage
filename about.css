@@ -65,6 +65,18 @@ p {
   flex-flow: row;
   column-gap: 40px;
 }
+.ri-arrow-up-circle-fill {
+    position: absolute;
+    right: 0;
+    margin-bottom: 180px;
+    font-size: 50px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .ri-arrow-up-circle-fill:hover {
+    font-size: 55px;
+  }
+  
 @media (max-width: 640px) {
   p {
     padding: 0 20px;
